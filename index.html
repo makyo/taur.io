@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" type="text/css" href="/assets/css/taurio.css" />
 
-    <!-- metadata -->
+    <!-- metadata, for engaging on social media - we must have a presence -->
     <link rel="canonical" href="http://taur.io" />
     <meta name="description" content="taur.io | Life moves too fast for two legs" />
 
@@ -43,6 +43,11 @@
     </script>
 </head>
 <body>
+    <!--
+
+    Our navbar should be short and to the point. List the information on the left, and calls-taur-action on the right.
+
+    -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -61,22 +66,32 @@
                     <li><a href="#case-study">Case study</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Log in</a></li>
-                    <li><button type="button" class="btn-success btn navbar-btn">Sign me up!</button></li>
+                    <li><a href="http://adjectivespecies.com">Log in</a></li>
+                    <li><form action="http://adjectivespecies.com" method="get"><button type="submit" href="http://adjectivespecies.com" class="btn-success btn navbar-btn">Sign me up!</button></form></li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="container-fluid">
+        <!--
+
+        Try to hook the user and convince them that Taurs Are Fucking Amazing™
+
+        -->
         <div class="jumbotron">
             <h1>Life moves too fast for two legs</h1>
             <p>You strive for more. You work hard in life to get ahead.</p>
             <p>And life always seems to move faster than you.</p>
             <p><a class="btn btn-primary btn-lg" href="#how-many" role="button">Keep up with life on all fours</a></p>
         </div>
-
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
+                <!--
+
+                Lead with some snippets from a success story (we only have one, so far, so lets hope it works).
+
+                -->
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <img src="/assets/img/rhari--taursday--makyo.png" />
@@ -97,6 +112,11 @@
                     </div>
                 </div>
 
+                <!--
+
+                We really need more success stories. We're stretching this one thin. But if there's one thing a taur is good at, it's STRETCHING!
+
+                -->
                 <div id="how-many">
                     <div class="page-header">
                         <h1>Two legs got you down? <small>Keep up with life on all fours</small></h1>
@@ -119,6 +139,11 @@
                     </div>
                 </div>
 
+                <!--
+
+                A lot of these are made up, but I don't think that's too big of a deal.
+
+                -->
                 <div id="testemonials">
                     <div class="page-header">
                         <h1>Don't believe us? <small>Here's what others have said</small></h1>
@@ -170,113 +195,169 @@
                     </div>
                 </div>
 
+
+                <!--
+
+                Case Study. We just have the one, so stretch it out some.
+
+                Get it.
+
+                Also, stretch it further with an accordion with expanding panels.
+
+                GET IT.
+
+                Taurs :3c
+
+                -->
                 <div id="case-study">
                     <div class="page-header">
                         <h1>Case study: <em>Makyo</em> <small>Arctic fox, female, age 31</small></h1>
                     </div>
                 </div>
-                <div class="panel panel-warning">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Before #1</h2>
-                    </div>
-                    <div class="panel-body row">
-                        <div class="col-md-2">
-                            <p>Makyo, as a young fox, danced eagerly in the knowledge of her &ldquo;freedom&rdquo;.</p>
+                <div class="panel-group" id="case-study-accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading" role="tab" id="case-study-1">
+                            <h2 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#case-study-accordion" href="#step-1" aria-expanded="true" aria-controls="case-study-1">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    Before #1
+                                </a>
+                            </h2>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <img src="/assets/img/floe--dancy--makyo.jpg" />
-                            <small>Art by Floe</small>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <p>Makyo came to us as a patient with a storied history. She had transitioned in her twenties, and was ecstatic with the way that the change had allowed her to be true to herself.</p>
-                                <p>She wondered in her new body. Even through transition, she had felt herself lighter and with more energy. She danced! The freedom she felt with two legs was exhilarating.</p>
+                        <div id="step-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="case-study-1">
+                            <div class="panel-body row">
+                                <div class="col-md-2">
+                                    <p>Makyo, as a young fox, danced eagerly in the knowledge of her &ldquo;freedom&rdquo;.</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img src="/assets/img/floe--dancy--makyo.jpg" />
+                                    <small>Art by Floe</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        <p>Makyo came to us as a patient with a storied history. She had transitioned in her twenties, and was ecstatic with the way that the change had allowed her to be true to herself.</p>
+                                        <p>She wondered in her new body. Even through transition, she had felt herself lighter and with more energy. She danced! The freedom she felt with two legs was exhilarating.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-danger">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Before #2</h2>
-                    </div>
-                    <div class="panel-body row">
-                        <div class="col-md-2">
-                            <p>Makyo soon began to tire of walking on two legs. Freedom had turned into a prison.</p>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading" role="tab" id="case-study-2">
+                            <h2 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#case-study-accordion" href="#step-2" aria-expanded="true" aria-controls="case-study-2">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    Before #2
+                                </a>
+                            </h2>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <img src="/assets/img/grey--hot-beverages-small--makyo.jpg" />
-                            <small>Art by Grey White</small>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <p>Happy as she was with her new body, Makyo began to tire of life on two legs. &ldquo;Every day is spent balancing on two legs so that I don't topple over. When I walk, it is a sort of barely-controlled fall forward, interrupted only by a foot catching me just in time.&rdquo;</p>
-                                <p>We listened to Makyo and understood her concerns. We worked with her to come up with a plan to get her moving forward on all fours, ready to tackle life&hellip;<em>at the speed of life.</em></p>
+                        <div id="step-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="case-study-2">
+                            <div class="panel-body row">
+                                <div class="col-md-2">
+                                    <p>Makyo soon began to tire of walking on two legs. Freedom had turned into a prison.</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img src="/assets/img/grey--hot-beverages-small--makyo.jpg" />
+                                    <small>Art by Grey White</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        <p>Happy as she was with her new body, Makyo began to tire of life on two legs. &ldquo;Every day is spent balancing on two legs so that I don't topple over. When I walk, it is a sort of barely-controlled fall forward, interrupted only by a foot catching me just in time.&rdquo;</p>
+                                        <p>We listened to Makyo and understood her concerns. We worked with her to come up with a plan to get her moving forward on all fours, ready to tackle life&hellip;<em>at the speed of life.</em></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">After #1</h2>
-                    </div>
-                    <div class="panel-body row">
-                        <div class="col-md-2">
-                            <p>The transition and the first few months were shaky.</p>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading" role="tab" id="case-study-3">
+                            <h2 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#case-study-accordion" href="#step-3" aria-expanded="true" aria-controls="case-study-3">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    After #1
+                                </a>
+                            </h2>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <img src="/assets/img/grey--taurkyo-small--makyo.jpg" />
-                            <small>Art by Grey White</small>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <p>We won't lie to you: becoming a taur will take a lot of getting used to. You have two extra paws on the ground, two bellies to deal with, and your tail is a long way away.</p>
-                                <p>&ldquo;I was tired every day for a while as I exercised new muscles, and some old ones I didn't even know I had! It was a testament to the taur.io program that I was able to adapt and become the six-limbed fox I am now.&rdquo;</p>
-                                <p>taur.io experts are here for you, Makyo. We'll help you become the long fox you truly are.</p>
+                        <div id="step-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="case-study-3">
+                            <div class="panel-body row">
+                                <div class="col-md-2">
+                                    <p>The transition and the first few months were shaky.</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img src="/assets/img/grey--taurkyo-small--makyo.jpg" />
+                                    <small>Art by Grey White</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        <p>We won't lie to you: becoming a taur will take a lot of getting used to. You have two extra paws on the ground, two bellies to deal with, and your tail is a long way away.</p>
+                                        <p>&ldquo;I was tired every day for a while as I exercised new muscles, and some old ones I didn't even know I had! It was a testament to the taur.io program that I was able to adapt and become the six-limbed fox I am now.&rdquo;</p>
+                                        <p>taur.io experts are here for you, Makyo. We'll help you become the long fox you truly are.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-success">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">After #2</h2>
-                    </div>
-                    <div class="panel-body row">
-                        <div class="col-md-2">
-                            <p>The trick was to relax, stretch, and enjoy a body with two tummies.</p>
+                    <div class="panel panel-success">
+                        <div class="panel-heading" role="tab" id="case-study-4">
+                            <h2 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#case-study-accordion" href="#step-4" aria-expanded="true" aria-controls="case-study-4">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    After #2
+                                </a>
+                            </h2>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <img src="/assets/img/grey--taurstretch-small--makyo.jpg" />
-                            <small>Art by Grey White</small>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <p>&ldquo;Over time, I began to loosen up. I grew into being a taur. I began living life. I began relishing the ways in which I could stretch. I rediscovered belly-rubs!&rdquo;</p>
-                                <p>Taurs naturally have more nerve endings. Combine that with double guts, and you've got twice the bellyrubs to catch up on!</p>
+                        <div id="step-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="case-study-4">
+                            <div class="panel-body row">
+                                <div class="col-md-2">
+                                    <p>The trick was to relax, stretch, and enjoy a body with two tummies.</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img src="/assets/img/grey--taurstretch-small--makyo.jpg" />
+                                    <small>Art by Grey White</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        <p>&ldquo;Over time, I began to loosen up. I grew into being a taur. I began living life. I began relishing the ways in which I could stretch. I rediscovered belly-rubs!&rdquo;</p>
+                                        <p>Taurs naturally have more nerve endings. Combine that with double guts, and you've got twice the bellyrubs to catch up on!</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel panel-success">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">After #3</h2>
-                    </div>
-                    <div class="panel-body row">
-                        <div class="col-md-2">
-                            <p>Before long, Makyo began to feel good. Her body became such a big part of her existance that she struggled to picture life without it.</p>
+                    <div class="panel panel-success">
+                        <div class="panel-heading" role="tab" id="case-study-5">
+                            <h2 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#case-study-accordion" href="#step-5" aria-expanded="true" aria-controls="case-study-5">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                    After #3
+                                </a>
+                            </h2>
                         </div>
-                        <div class="col-md-4 text-center">
-                            <img src="/assets/img/rhari--cooldown-finished--makyo.png" />
-                            <small>Art by Rhari</small>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <p>Four paws in the ground, two more at your disposal for your daily tasks; only being a taur can offer you these wins.</p>
-                                <p>&ldquo;I was limber, I was quick, I even felt sexy!&rdquo; &mdash; and Makyo wasn't the only one. Many have reported the new speed that has helped them tackle life head on.</p>
+                        <div id="step-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="case-study-5">
+                            <div class="panel-body row">
+                                <div class="col-md-2">
+                                    <p>Before long, Makyo began to feel good. Her body became such a big part of her existance that she struggled to picture life without it.</p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <img src="/assets/img/rhari--cooldown-finished--makyo.png" />
+                                    <small>Art by Rhari</small>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="well">
+                                        <p>Four paws in the ground, two more at your disposal for your daily tasks; only being a taur can offer you these wins.</p>
+                                        <p>&ldquo;I was limber, I was quick, I even felt sexy!&rdquo; &mdash; and Makyo wasn't the only one. Many have reported the new speed that has helped them tackle life head on.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!--
+
+                CTA - more taurs here. If they've made it this far, I think they're hooked.
+
+                -->
                 <div class="jumbotron">
                     <h1>Are you ready to take life on all fours?</h1>
                     <div class="row">
@@ -286,6 +367,7 @@
                         </div>
                         <div class="col-md-8">
                             <p>Dr. Randomwolf is <em>now accepting patients.</em></p>
+                            <form method="get" action="http://adjectivespecies.com"><button class="btn btn-lg btn-success">Make an appointment today!</button></form>
                         </div>
                     </div>
                 </div>
@@ -297,6 +379,12 @@
         </div>
     </div>
 
+    <!--
+
+    These scripts help convert VIEWERS to TAURS
+
+    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>

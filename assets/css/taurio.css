@@ -1,7 +1,21 @@
+/*
+Lato is a good font.
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body, body * {
+    font-family: "Lato", sans-serif;
+}
+
+/*
+Wouldn't want our taurs to stretch too much! ;)
+*/
 img {
     max-width: 100%;
 }
 
+/*
+Footers: taurs got four
+*/
 footer {
     padding: 1em;
     border-top: 1px solid #ccc;
